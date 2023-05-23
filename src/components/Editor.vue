@@ -14,7 +14,6 @@ function convertToCSV(){
         quizletArray.push(quizletInputArray[index].split(tabSeparator))
     }
     console.log(quizletArray)
-    console.log(export2DArrayToCSV(quizletArray))
     downloadCSV(export2DArrayToCSV(quizletArray), "quizlet-flashcard.csv")
 }
 
